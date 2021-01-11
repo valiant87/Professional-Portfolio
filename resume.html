@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Valerian Nimirenco">
+    <meta name="keywords" content="About Me, Contact,Portfolio">
+    <title>About Me</title>
+    <!-- Link to resets.css -->
+    <link rel="stylesheet.css" href="./assets/reset.css">
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <!-- Link to style CSS -->
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<!-- Built with bootstrap components, grid system and utilities -->
+
+<body class="bgi">
+    <header>
+        <!--Bootstrap  navbar components -->
+        <nav class="navbar navbar-expand-lg">
+            <h3>Val Nimirenco</h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <abbr class="navbar-toggler-icon"></abbr>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="index.html">About Me<abbr class="sr-only">(current)</abbr></a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="resume.html">Resume</a>
+
+                </div>
+            </div>
+        </nav>
+        <div class="text-center mt-2">
+            <!-- Target _blank will open the Resume in a separate window -->
+            <a href="assets/images/resume.pdf" target="_blank" alt="resume PDF">
+                <button id="resBtn" class="btn btn-primary btn-lg">View My Resume</button>
+            </a>
+        </div>
+
+        <!-- Footer fixe to the bottom -->
+        <footer class="fixed-bottom">
+            <div class="row">
+                <div class="col">
+                    <small>© 2020 All rights reserved Valerian Nimirenco</small>
+                    <!-- Linkedin page -->
+                    <a href="https://www.linkedin.com/in/val-nimirenco-a625781b0/" target="_blank">
+                        <img src="assets/images/linkedin.png" width="40" height="40" class="mediaIcons">
+                    </a>
+                    <!-- Github page -->
+                    <a href="https://github.com/valiant87" target="_blank">
+                        <img src="assets/images/git.png" width="40" height="40" class="mediaIcons">
+                    </a>
+                    <!-- Facebook page -->
+                    <a href="https://www.facebook.com/val.nimirenco" target="_blank">
+                        <img src="assets/images/facebook.png" width="40" height="40" class="mediaIcons">
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+        <!-- JS bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

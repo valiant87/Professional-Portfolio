@@ -1,0 +1,134 @@
+h3 {
+    font-family: 'Audiowide', cursive;
+    background-color: rgb(255, 217, 0);
+    margin: 20px;
+    color: rgb(10, 10, 175);
+}
+
+.header {
+    font-family: 'Audiowide', cursive;
+    color: rgb(10, 10, 175);
+}
+
+p {
+    font-family: 'Times New Roman', 'Times', 'serif';
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/* 
+.container {
+    float: left;
+    margin: 5%;
+    width: auto;
+} */
+
+section {
+    background-color: white;
+}
+
+.bgi {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    padding: 0px 10px 10px 0px;
+}
+
+
+/* Resume button */
+
+#resBtn {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 150px;
+    border: 4px solid;
+    border-color: rgb(255, 217, 0);
+}
+
+#resBtn:hover {
+    background-color: rgb(10, 10, 175);
+    color: rgb(255, 217, 0);
+    border: 2px solid;
+    border-color: rgb(255, 217, 0);
+}
+
+
+/* Nav-Bar style */
+
+.nav-link {
+    font-family: 'Audiowide', cursive;
+    color: white;
+    border: 2px solid;
+    border-color: rgb(255, 217, 0);
+}
+
+.nav-link:hover {
+    background-color: rgb(10, 10, 175);
+    color: rgb(255, 217, 0);
+    border: 2px solid;
+    border-color: rgb(255, 217, 0);
+}
+
+.fixed-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(10, 10, 175);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 4px;
+    border-top-style: solid;
+    border-top-color: rgb(255, 217, 0);
+}
+
+
+/* This styles Copyright */
+
+small {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+/* This styles toggle burger menue */
+
+.navbar-toggler {
+    background-color: rgb(255, 217, 0);
+    padding: 3px;
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(10, 10, 175);
+    padding: 20px;
+}
+
+
+/* This styles social media icons bottom right corner */
+
+.mediaIcons {
+    float: right;
+    margin-right: 10px;
+}
+
+.mediaIcons:hover {
+    border-color: rgb(255, 217, 0);
+    border-style: solid;
+    padding: 2px;
+}
