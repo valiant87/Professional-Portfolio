@@ -48,7 +48,8 @@ https://valiant87.github.io/Professional-Portfolio/
 ## Contributors
 
 - valnimirenco@gmail.com
-- [Val Nimirenco](https://github.com/valiant87)
+- https://github.com/valiant87
+- https://github.com/valiant87/Professional-Portfolio
 
 <a href="https://img.shields.io/badge/CSS-19.0%25-purple"><img alt="CSS usage" src="https://img.shields.io/badge/CSS-19.0%25-purple"></a>
 <a href="https://img.shields.io/badge/HTML-81.0.%25-blue"><img alt="HTML usage" src="https://img.shields.io/badge/HTML-81.0%25-blue"></a>
